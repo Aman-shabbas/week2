@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div>
+        <!-- creating navigation bar -->
+        <div id="navbar">
+            <div id="navbarframe">
+                <!-- plcing logo -->
+                <img src="images/Logo.png" alt="Logo" id="logo">
+                <div id="navframebtn">
+                    <!-- Sign In button and social media icons -->
+                    <button id="navframebtnsingin">Sing In</button>
+                    <div id="navframebtnsmedia">
+                        <img src="images/discordlogo.svg" alt="Discord" id="navframebtnmediaicon">
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+        
+        <!-- creation of Landing screen -->
+        <div id="mainscreen">
+            <div id="container">
+                <!-- creation of background screens -->
+                <div id="bgcontainer">
+                    <img src="images/bg.png" alt="" id="bg">
+                </div>
+        
+                <!-- intro container -->
+                <div id="introcontainer">
+                    <div>
+                        <h1 id="hero">Year's end is neither an end nor a beginning but a<br> going on.</h1>
+                        <p style="color: white; font-size:x-large;">Join us to celebrate the last night of the<br> year
+                            across the country.</p>
+                    </div>
+                    <div id="introbottom">
+                        <button id="btn2">Create account</button>
+                        <div id="people">
+                            <img src="images/pepl1.png" alt="people" id="ppl" style="left: 0; ">
+                            <img src="images/pepl2.png" alt="people" id="ppl" style="left: 18px;">
+                            <img src="images/pepl3.png" alt="people" id="ppl" style="left: 36px;">
+                            <h5 style="color: white; margin-top: 5%; margin-left: 80px;">+ 23547 registrations</h5>
+                        </div>
+                    </div>
+                </div>
+                <div id="gradient"></div>
+                <div id="textblock">
+                    <div id="textitem">
+                        <div id="textitemhead">
+                            <img src="images/texticon (3).svg" alt="" id="textitemicon">
+                            <p id="textitemtitle">A single source of truth</p>
+                        </div>
+                        <p id="textitembody">When you add work to your Slate calendar we automatically calculate useful
+                            insights
+                        </p>
+                    </div>
+                    <div id="textitem">
+                        <div id="textitemhead">
+                            <img src="images/texticon (2).svg" alt="" id="textitemicon">
+                            <p id="textitemtitle">Intuitive interface</p>
+                        </div>
+                        <p id="textitembody">When you add work to your
+                            Slate calendar we automatically
+                            calculate useful insights
+        
+                        </p>
+                    </div>
+                    <div id="textitem">
+                        <div id="textitemhead">
+                            <img src="images/texticon (1).svg" alt="" id="textitemicon">
+                            <p id="textitemtitle">A single source of truth</p>
+                        </div>
+                        <p id="textitembody">When you add work to your Slate calendar we automatically calculate useful
+                            insights
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="formcontainer">
+                <form action="" id="formcreate">
+                    <div id="formhead">
+                        <h4 id="t1">Add New Account</h4>
+                    </div>
+                    <div id="contentcontainer">
+                        <div id="formcontent">
+                            <div id="formgrpinput">
+                                <label for="name " id="fromlabel">Name</label>
+                                <input class="frominput" type="text" id="name" name="name" required placeholder="Delvin Tharayil">
+                            </div>
+                            <div id="formgrpinput">
+                                <label for="name " id="fromlabel">Email</label>
+                                <input class="frominput" type="text" id="email" name="email" required placeholder="tharayildevin@gmail.com">
+                                <div id="emailStatus"></div>
+                            </div>
+                        </div>
+                        <div id="formcontent">
+                            <div id="formgrpinput">
+                                <label for="name " id="fromlabel">Organisation</label>
+                                <input class="frominput" type="text" id="organisation" name="organisation" required placeholder="Info Tech">
+                            </div>
+                            <div id="formgrpinput">
+                                <label for="name " id="fromlabel">Role</label>
+                                <select class="frominput" id="role" name="role" required
+                                    style="box-shadow: 4px 4px 8px 0px #000, -4px -4px 6px 0px #3B4451; padding: 0px; width: 90%;  height: 40%;">
+                                    <option value="scholar">Scholar</option>
+                                    <option value="worker">Worker</option>
+                                    <option value="Owner">Owner</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id="formcontent">
+                            <div id="formgrpinput">
+                                <label for="name " id="fromlabel">Password:</label>
+                                <div class="password">
+                                    <input class="frominput" type="password" id="frominputpass1" name="password1" required
+                                        placeholder="********">
+                                    <span class="toggle-password" id="togglePassword">
+                                        <i class="fas fa-eye" id="eye-icon1"></i>
+                                    </span>
+                                </div class="password">
+                            </div>
+                            <div id="formgrpinput">
+                                <label for="name " id="fromlabel" style="font-size: 12px;margin-bottom: 3px;">Confirm Password:</label>
+                                <div class="password">
+                                    <input class="frominput" type="password" id="frominputpass2" name="password2" required
+                                        placeholder="********">
+                                    <span class="toggle-password" id="togglePassword">
+                                        <i class="fas fa-eye" id="eye-icon2"></i>
+                                    </span>
+                                </div class="password">
+                            </div>
+                        </div>
+                        <div id="formcontent" style="height: 100%; padding-bottom: 0px;">
+                            <div id="formgrpinput" style="height: 90%;">
+                                <label for="name " id="fromlabel">Profile Summery:</label>
+                                <textarea class="frominput" name="name" placeholder="Delvin Tharayil"
+                                    style="width: 90%; height: 100%; align-items:flex-start; display: flex;"></textarea>
+                            </div>
+                        </div>
+                        <div id="formcontent" style="height: auto; margin: 0px; padding: 0px;">
+                            <div id="formgrpinput" style="margin: 0px;">
+                                <a id="signinlink">Already have an account?</a>
+                            </div>
+                        </div>
+                        <div id="formcontent">
+                            <div id="formgrpinput">
+                                <button class="b1" id="b1">Create account</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+
+                <form action="page1.html" id="formsingin">
+                    <div id="formhead">
+                        <h4 id="t1" style="font-size: 15px;">Sign In Your Account</h4>
+                    </div>
+                    <div id="contentcontainer">
+                        <div id="formcontent">
+                            <div id="formgrpinput">
+                                <label for="name " id="fromlabel" style="font-size: 10px;">Name</label>
+                                <input class="frominput" type="text" id="frominput" style="height: 9px;" name="name" required placeholder="Delvin Tharayil">
+                            </div>
+                        </div>
+                        <div id="formcontent">
+                            <div id="formgrpinput">
+                                <label for="name " id="fromlabel" style="font-size: 10px;">Email</label>
+                                <input class="frominput" type="text" id="frominput" name="name" required placeholder="tharayildevin@gmail.com">
+                            </div>
+                        </div>
+                        <div id="formcontent">
+                            <div id="formgrpinput">
+                                <label for="name " id="fromlabel" style="font-size: 10px;">Password:</label>
+                                <div class="password">
+                                    <input class="frominput" type="password" id="frominputpass3" name="password1" required
+                                        placeholder="********">
+                                    <span class="toggle-password" id="togglePassword">
+                                        <i class="fas fa-eye" id="eye-icon3"></i>
+                                    </span>
+                                </div class="password">
+                            </div>
+                        </div>
+                        <div id="formcontent" style="height: auto; margin: 0px; padding: 0px;">
+                            <div id="formgrpinput" style="margin: 0px;">
+                                <a id="forgotlink">Forgot password?</a>
+                            </div>
+                        </div>
+                        <div id="formcontent" style="height: auto; margin: 0px; padding: 0px;">
+                            <div id="formgrpinput" style="margin: 0px;">
+                                <a id="createlink">New here? Create account</a>
+                            </div>
+                        </div>
+                        <div id="formcontent">
+                            <div id="formgrpinput">
+                                <button class="b1" id="b3">Sign In</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script>
+        const signinform = document.getElementById('formsingin');
+        const createform = document.getElementById('formcreate');
+        const signinlink = document.getElementById('signinlink');
+        const createlink = document.getElementById('createlink');
+        const signinButton = document.getElementById('navframebtnsingin');
+        const createAcndBtn = document.getElementById('btn2');
+        const singinDiv = document.getElementById('formcontainer');
+
+        signinform.style.display = 'none';
+        signinButton.addEventListener('click', () => {
+            singinDiv.scrollIntoView({ behavior: "smooth" });
+            createform.style.display = 'none';
+            signinform.style.display = 'flex';
+
+        });
+        createAcndBtn.addEventListener('click', () => {
+            singinDiv.scrollIntoView({ behavior: "smooth" });
+            createform.style.display = 'flex';
+            signinform.style.display = 'none';
+        });
+        signinlink.addEventListener('click', (event) => {
+            event.preventDefault();
+            singinDiv.scrollIntoView({ behavior: "smooth" });
+            createform.style.display = 'none';
+            signinform.style.display = 'flex';
+        });
+        createlink.addEventListener('click', (event) => {
+            event.preventDefault();
+            singinDiv.scrollIntoView({ behavior: "smooth" });
+            createform.style.display = 'flex';
+            signinform.style.display = 'none';
+        });
+
+        const passwordInput1 = document.getElementById('frominputpass1');
+        const passwordInput2 = document.getElementById('frominputpass2');
+        const passwordInput3 = document.getElementById('frominputpass3');
+        const eyeIcon1 = document.getElementById('eye-icon1');
+        const eyeIcon2 = document.getElementById('eye-icon2');
+        const eyeIcon3 = document.getElementById('eye-icon3');
+
+        eyeIcon1.addEventListener('click', () => {
+            if (passwordInput1.type === 'password') {
+                passwordInput1.type = 'text';
+                eyeIcon1.classList.remove('fa-eye');
+                eyeIcon1.classList.add('fa-eye-slash');
+            } else {
+                passwordInput1.type = 'password';
+                eyeIcon1.classList.remove('fa-eye-slash');
+                eyeIcon1.classList.add('fa-eye');
+            }
+        });
+        eyeIcon2.addEventListener('click', () => {
+            if (passwordInput2.type === 'password') {
+                passwordInput2.type = 'text';
+                eyeIcon2.classList.remove('fa-eye');
+                eyeIcon2.classList.add('fa-eye-slash');
+            } else {
+                passwordInput2.type = 'password';
+                eyeIcon2.classList.remove('fa-eye-slash');
+                eyeIcon2.classList.add('fa-eye');
+            }
+        });
+        eyeIcon3.addEventListener('click', () => {
+            if (passwordInput3.type === 'password') {
+                passwordInput3.type = 'text';
+                eyeIcon3.classList.remove('fa-eye');
+                eyeIcon3.classList.add('fa-eye-slash');
+            } else {
+                passwordInput3.type = 'password';
+                eyeIcon3.classList.remove('fa-eye-slash');
+                eyeIcon3.classList.add('fa-eye');
+            }
+        });
+
+        window.onload = function(){
+            document.getElementById('b1').disabled = true;
+        };
+        const email = document.getElementById('email');
+        const form = document.getElementById('formcreate');
+        const emailsts = document.getElementById('emailStatus');
+        form.addEventListener('input', function () {
+
+            const emailValue = email.value.trim();
+            const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+            var name = document.getElementById('name');
+            var email = document.getElementById('email');
+            var organisation = document.getElementById('organisation');
+            var role = document.getElementById('role');
+            var pas1 = document.getElementById('frominputpass1');
+            var pas2= document.getElementById('frominputpass2');
+            
+
+            if(name !== "" && email !== "" && organisation !== "" && role !== ""&& pas1 !== "" && pas2 !== ""){
+                document.getElementById('b1').disabled = false;
+            }else if (!emailRegex.test(emailValue)) {
+                emailsts.style.display = 'block';
+                emailsts.textContent = "Invalid Email Addres";
+                email.classList.add('text-danger');
+                email.classList.remove('text-seccess');
+                document.getElementById('btn').disabled = true;
+            }else{
+                emailsts.style.display = 'none';
+                email.classList.add('text-success');
+                email.classList.remove('text-danger');
+                document.getElementById('btn').disabled = false;
+            }
+            
+        });
+
+
+
+    </script>
+</body>
+
+</html>
